@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	$("#credit").click(function(){
+		$("#debit").css('height','7%');
+		$("#debit").css('top','61.5%');
+		$("#wallet").css('height','7%');
+		$("#wallet").css('top','68.5%');
+		$("#credit").css('height','50%');
+	});
+	$("#debit").click(function(){
+		$("#credit").css('height','7%');
+		$("#wallet").css('height','7%');
+		$("#wallet").css('top','68.5%');
+		$("#debit").css('height','50%');
+		$("#debit").css('top','18.5%');
+	});
+	$("#wallet").click(function(){
+		$("#debit").css('height','7%');
+		$("#debit").css('top','18.5%');
+		$("#credit").css('height','7%');
+		$("#wallet").css('height','50%');
+		$("#wallet").css('top','25%');
+	});
+});

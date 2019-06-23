@@ -1,0 +1,139 @@
+*{
+	margin:0;
+	padding:0;
+}
+#nav{
+	position:fixed;
+	top:0;
+	width:100%;
+	background-color:#16A085;
+	padding:2px;
+	padding-bottom:0;
+	box-shadow:0 5px 10px rgba(0,0,0,0.3);
+	z-index:9;
+}
+#nav ul{
+	list-style-type:none;
+}
+#nav li a{
+	text-decoration:none;
+	color:#fff;
+	font-family:Calibri;
+	font-size:1.6em;
+	float:left;
+	text-align:center;
+	padding:5px 15px;
+	margin-top:19px;
+	padding-bottom:0;
+}
+#nav li .active{
+	border-bottom:4px solid #ECF0F1;
+}
+#nav li a:hover{
+	color:#0B5345;
+	border-bottom-color:rgba(255,255,255,0.5);
+}
+#nav .material-icons{
+	float:right;
+	color:#fff;
+	font-size:3em;
+	margin-top:5px;
+	margin-right:5px;
+	cursor:pointer;
+}
+#nav .material-icons:hover{
+	color:#0B5345;
+}
+#head{
+	color:#fff;
+	font-family:Calibri;
+	font-size:3em;
+	float:right;
+	margin-right:3%;
+}
+#open{
+	position:absolute;
+	background-color:#fff;
+	width:15%;
+	padding:15px;
+	border-radius:8px;
+	right:2%;
+	top:10%;
+	z-index:11;
+	display:none;
+	text-align:center;
+}
+#open input[type="email"],#open input[type="password"],#open input[type="submit"]{
+	margin:10px;
+	padding:4px;
+	outline:none;
+	border:none;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+	font-family:Calibri;
+	font-size:1em;
+	transition:0.3s ease;
+}
+#open input[type="submit"]{
+	background-color:#0B5345;
+	color:#fff;
+	padding:5px 20px;
+	cursor:pointer;
+}
+#open input[type="submit"]:hover{
+	box-shadow:0 0 5px rgba(0,0,0,0.4);
+}
+#open input[type="email"]:focus,#open input[type="password"]:focus{
+	border-bottom:2px solid #0B5345;
+}
+#open a{
+	font-family:Calibri;
+	text-decoration:none;
+}
+#overlay{
+	top:0;
+	position:fixed;
+	background-color:rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;
+	z-index:10;
+	display:none;
+}
+.spaceG{
+	margin:5%;
+}
+.hisBook{
+	width:60%;
+	border:1px solid rgba(0,0,0,0.4);
+	margin:5% auto;
+	padding:2% 5%;
+	margin-bottom:0;
+}
+.hisBook p{
+	color:#fff;
+	font-size:1.2em;
+	font-family:Calibri;
+}
+#wel{
+	font-family:Calibri;
+	font-size:1.3em;
+}
+#history{
+	font-family:Calibri;
+	font-size:1.2em;
+	text-decoration:none;
+}
+#logout{
+	font-family:Calibri;
+	font-size:1.2em;
+}
+#logout a,#history a{
+	text-decoration:none;
+	color:#C2185B;
+}
+#logout a:hover,#history a:hover{
+	color:#F48FB1;
+}
+#open hr{
+	margin:10px 20px;
+	background-color:rgba(0,0,0,0.3);
+}
