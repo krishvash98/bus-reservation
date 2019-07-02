@@ -62,7 +62,7 @@
 			</div>
 			<div class="profile">
 				<img src="pro.jpg" style="width:70%;border-radius:50%;">
-				<p>Arshia Verma</p>
+				<p>Krish Vashishth</p>
 				<a href="#" class="fa fa-facebook"></a>
 				<a href="#" class="fa fa-instagram"></a>
 				<a href="#" class="fa fa-twitter"></a>
